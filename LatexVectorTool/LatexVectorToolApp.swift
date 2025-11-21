@@ -13,5 +13,7 @@ struct LatexVectorToolApp: App {
         WindowGroup {
             ContentView()
         }
+        .windowResizability(.contentSize)
     }
+    
 }
